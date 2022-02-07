@@ -1,0 +1,42 @@
+package com.company;
+
+public class Taigan {
+    private int taidlina;
+    private  String taiparoda;
+    private  int taiweight;
+    private String taiadres;
+
+    public int gettaidlina() {
+        return taidlina;
+    }
+
+    public void setTaidlina(int taidlina) {
+        this.taidlina = taidlina;
+    }
+
+    public String gettaiparoda() {
+        return taiparoda;
+    }
+
+    public void setTaiaroda(String taiparoda) {
+        this.taiparoda = taiparoda;
+    }
+
+    public int gettaiweight() {
+        return taiweight;
+    }
+
+    public void setTaiweight(int taiweight) {
+        this.taiweight = taiweight;
+    }
+
+    public String getTaiadres() {
+        return taiadres;
+    }
+
+    public void setTaiadres(String taiadres) {
+        this.taiadres = taiadres;
+    }
+}
+
+}

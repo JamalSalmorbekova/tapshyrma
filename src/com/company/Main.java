@@ -27,9 +27,17 @@ public class Main {
             popugai.setPweight(3);
             popugai.setPadres("Кошунанын  уйундо ");
 
-                System.out.println("Попугайдын бою  -  " + popugai.getPdlina()+ "см.; Пародасы - "+ popugai.getPparoda()+";   Салмагы - " + popugai.getPweight()+"кг.;  Жашаган  жери - "+ popugai.getPadres()+(";"));
+                System.out.println("Попугайдын бою  -  " + popugai.getPdlina()+ "см.; Пародасы - "+ popugai.getPparoda()+";   Салмагы - " + popugai.getPweight()+"кг.;  Жашаган  жери - "+ popugai.getPadres()+";");
+
+        Sobaki sobaki= new Sobaki(); // Вызов класса  com.company.Sobaki
+        sobaki.setSdlina(55);
+        sobaki.setSparoda("Кулук");
+        sobaki.setSweight(12);
+        sobaki.setSadres("Чон атамдын  уйундо ");
+
+        System.out.println("Иттин   бою  -  " + sobaki.getSdlina()+ "см.;   ародасы - "+ sobaki.getSparoda()+";   Салмагы - " + sobaki.getSweight()+"кг.;  Жашаган  жери - "+ sobaki.getSadres()+";");
 
 
 
-            }
+    }
 }
